@@ -10,6 +10,7 @@ requires-python = ">=3.14"
 dependencies = [
     "dotenv>=0.9.9",
     "google-genai>=2.22.0",
+    "python-dotenv>=1.2.3",
     "rich>=15.0.0",
 ]
 

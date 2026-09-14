@@ -243,6 +243,7 @@ source = { editable = "." }
 dependencies = [
     { name = "dotenv" },
     { name = "google-genai" },
+    { name = "python-dotenv" },
     { name = "rich" },
 ]
 
@@ -250,6 +251,7 @@ dependencies = [
 requires-dist = [
     { name = "dotenv", specifier = ">=0.9.9" },
     { name = "google-genai", specifier = ">=2.22.0" },
+    { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "rich", specifier = ">=15.0.0" },
 ]
 
