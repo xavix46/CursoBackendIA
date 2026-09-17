@@ -35,5 +35,8 @@ htmlcov/
 # IDEs & OS
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
