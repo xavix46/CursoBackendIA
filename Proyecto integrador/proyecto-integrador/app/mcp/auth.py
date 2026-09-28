@@ -35,7 +35,7 @@ def get_mcp_user(db: Session, token: Optional[str] = None) -> Usuario:
     if not usuario:
         demo_user = Usuario(
             email=demo_email,
-            password_hash=hash_password("DemoPassword123!"),
+            password_hash=hash_password(settings.MCP_DEMO_PASSWORD),
         )
         usuario = repo.crear(demo_user)
 
